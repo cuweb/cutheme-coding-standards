@@ -1,0 +1,13 @@
+{
+    "name": "cuweb/cutheme-coding-standards",
+    "description": "Shared PHP coding standards for CUWeb cutheme WordPress plugins.",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+        "phpstan/extension-installer": "^1.4",
+        "phpstan/phpstan": "^2.0",
+        "szepeviktor/phpstan-wordpress": "^2.0",
+        "wp-coding-standards/wpcs": "^3.2"
+    }
+}

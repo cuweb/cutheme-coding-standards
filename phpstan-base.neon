@@ -1,0 +1,8 @@
+parameters:
+    level: 5
+    treatPhpDocTypesAsCertain: false
+    excludePaths:
+        # Marked optional (?) so analysis works before build/install steps run.
+        - build (?)
+        - node_modules (?)
+        - vendor (?)
