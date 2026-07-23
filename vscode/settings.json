@@ -1,16 +1,4 @@
 {
-	// Intelephense: recognize WordPress core functions/classes/globals (fixes P1010 "Undefined function" warnings)
-	"intelephense.stubs": [
-		"wordpress",
-		"wordpress-globals",
-		"core",
-		"standard",
-		"apache",
-		"pcre",
-		"json",
-		"mysqli"
-	],
-
 	// PHP CodeSniffer (obliviousharmony.vscode-php-codesniffer) — enforce WPCS via phpcs.xml.dist
 	"phpcs.enable": true,
 	"phpcs.standard": "./phpcs.xml.dist",
