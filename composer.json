@@ -4,10 +4,10 @@
     "type": "library",
     "license": "GPL-2.0-or-later",
     "require": {
-        "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
-        "phpstan/extension-installer": "^1.4",
-        "phpstan/phpstan": "^2.0",
-        "szepeviktor/phpstan-wordpress": "^2.0",
-        "wp-coding-standards/wpcs": "^3.2"
+        "dealerdirect/phpcodesniffer-composer-installer": "^1.2.1",
+        "phpstan/extension-installer": "^1.4.3",
+        "phpstan/phpstan": "^2.2.7",
+        "szepeviktor/phpstan-wordpress": "^2.0.3",
+        "wp-coding-standards/wpcs": "^3.4.1"
     }
 }
