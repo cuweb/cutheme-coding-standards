@@ -16,4 +16,10 @@
 	</rule>
 
 	<rule ref="Generic.Arrays.DisallowLongArraySyntax"/>
+
+	<!-- Ensure that all variables in global context start with this prefix -->
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals">
+		<exclude name="WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedVariableFound"/>
+		<exclude name="WordPress.NamingConventions.PrefixAllGlobals.NonPrefixedFunctionFound"/>
+	</rule>
 </ruleset>
